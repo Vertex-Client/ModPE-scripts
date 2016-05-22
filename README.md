@@ -1,2 +1,2 @@
 # ModPE-scripts
-These are some of my ModPE scripts iv made and learned while coding, feel freee to copy!
+These are some of my ModPE scripts ive made and learned while coding, feel free to copy!
