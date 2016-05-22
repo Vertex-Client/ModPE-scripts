@@ -5,7 +5,5 @@ function chatReceiveHook(str, sender) {
 }
 
 function attackHook(attacker, victim) {
-	if(fire) {
-Entity.setFireTicks(victim, 5);
-}
+if(fire)Entity.setFireTicks(victim, 5);
 }
