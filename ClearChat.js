@@ -1,17 +1,10 @@
-function chatReceiveHook(str, sender) {
+function chatHook(str) {
 	if(str=="clear") {
-	clientMessage(" " + "\n" + " ");
-
-clientMessage(" " + "\n" + " ");
-
-clientMessage(" " + "\n" + " ");
-
-clientMessage(" " + "\n" + " ");
-
-clientMessage(" " + "\n" + " ");
-
-clientMessage(" " + "\n" + " ");
-
-clientMessage(" " + "\n" + " ");
-}
+		preventDefault();
+		com.mojang.minecraftpe.MainActivity.currentMainActivity.get().nativeSetTextboxText("");
+		com.mojang.minecraftpe.MainActivity.currentMainActivity.get().updateTextboxText("");
+		for(var i = 0; i <= 7; i++) {
+			clientMessage(" " + "\n" + " ");
+		}
 	}
+}
